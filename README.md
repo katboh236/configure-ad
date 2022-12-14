@@ -78,7 +78,26 @@ Logged in to DC-1 and installed Active Directory Domain Services, set up a new f
 </p>
 <p>
 In Active Directory Users and Computers (ADUC), created an Organizational Unit (OU) called “_EMPLOYEES”, created a new OU named “_ADMINS” and created a new employee named “Jane Doe” (same password) with the username of “jane_admin”. Added jane_admin to the “Domain Admins” Security Group, loged out/closed the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin” and I can use jane_admin as my admin account from now on.
-
-
+</p>
+<br />
+<p>
+<img src="https://imgur.com/NCG2v3V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/6gFan4R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Azure Portal, I set Client-1's DNS settings to the DC-1's Private IP address. From Azure Portal, I restarted Client-1 and logged in to Client-1 as the original local admin (kbuser) and joined it to the domain.
+</p>
+<br />
+<p>
+<img src="https://imgur.com/XuE4pOG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/UgZpOZ5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In order to set up Remote Desktop for non-administrative users on Client-1, I logged in to Client-1 as mydomain.com/jane_admin and in 
+  System Properties-> Remote Desktop allowed "Domain users" access to remote desktop.
 </p>
 <br />
