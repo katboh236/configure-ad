@@ -110,6 +110,6 @@ I will set up Remote Desktop for non-administrative users on Client-1. In order 
 <img src="https://imgur.com/mvdMmm3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I will create additional users and attempt to log in into Client-1 with one of the users. In order to do that, I logged in to DC-1 as jane_admin, opened PowerShell ISE as administrator, created a new file and pasted a script to generate thousands of users into the domain.
+I will create additional users and attempt to log in into Client-1 with one of the users. In order to do that, I logged in to DC-1 as jane_admin, opened PowerShell ISE as administrator, created a new file and pasted a script to generate thousands of users into the domain. I logged into Client-1 with "bim.hik" account credentials as a normal user. Success!
 </p>
 <br />
