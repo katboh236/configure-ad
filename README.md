@@ -57,6 +57,16 @@ Created two Virtual Machines - DC-1 and Client-1 in Azure. Changed the DC-1 to a
 <img src="https://imgur.com/fWFmqKt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To ensure connectivity between Client-1 and DC-1, I have enabled ICMPv4 on the firewall on DC-1, logged in into Client-1 and pinged DC-1's private IP address with -t(perpetual ping) and ping was successful.
+To ensure connectivity between Client-1 and DC-1, I have enabled ICMPv4 on the Microsoft Defender Firewall on DC-1, logged in into Client-1 and pinged DC-1's private IP address with -t(perpetual ping) and ensured that the ping was successful.
+</p>
+<br />
+<p>
+<img src="https://imgur.com/DKpcnBN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/bBYxF5c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Logged in to DC-1 and installed Active Directory Domain Services, set up a new forest as mydomain.com, restarted and then logged in back to DC-1 as user: mydomain.com\kbuser.
 </p>
 <br />
