@@ -24,10 +24,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Setup Resources in Microsoft Azure
+- Create two Virtual Machines in the same VNET DNS Server (Domain Controller and Client)
+- Ensure connectivity between the Client and Domain Controller
+- Install Active Directory and set up a new forest as mydomain.com
+- Create an Admin and Normal User in Active Directory
+- Join Client VM to mydomain.com
+- Setup Remote Desktop for non-administrative users on Client VM
+- Create 1000 of addtional users and log into Client VM with one of the new users
 
 <h2>Deployment and Configuration Steps</h2>
 
