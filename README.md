@@ -97,7 +97,19 @@ In Azure Portal, I set Client-1's DNS settings to the DC-1's Private IP address.
 <img src="https://imgur.com/UgZpOZ5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In order to set up Remote Desktop for non-administrative users on Client-1, I logged in to Client-1 as mydomain.com/jane_admin and in 
-  System Properties-> Remote Desktop allowed "Domain users" access to remote desktop.
+I will set up Remote Desktop for non-administrative users on Client-1. In order to do that, I logged in to Client-1 as mydomain.com/jane_admin and in System Properties-> Remote Desktop allowed "Domain users" access to remote desktop.
+</p>
+<br />
+<p>
+<img src="https://imgur.com/vu33ARF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/Jt0nbAS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/mvdMmm3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I will create additional users and attempt to log in into Client-1 with one of the users. In order to do that, I logged in to DC-1 as jane_admin, opened PowerShell ISE as administrator, created a new file and pasted a script to generate thousands of users into the domain.
 </p>
 <br />
