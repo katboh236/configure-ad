@@ -46,14 +46,17 @@ In this tutorial, I will create Virtual Machines in Microsoft Azure and install 
 <img src="https://imgur.com/QtDyerG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Created two Virtual Machines - DC-1 and Client-1 in Azure. Changed the DC-1 to a static IP address because its offering Active Directory services to the client machine and Client machine will be joined to the domain. I will control the DNS settings on the Client machine, the Client machine will use the DC as its DNS server.
+Created two Virtual Machines - DC-1 and Client-1 in Azure. Changed the DC-1 to a static IP address because its offering Active Directory services to the client machine and Client machine will be joined to the domain. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/7qOCUtY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://imgur.com/fWFmqKt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To ensure connectivity between Client-1 and DC-1, I have enabled ICMPv4 on the firewall on DC-1, logged in into Client-1 and pinged DC-1's private IP address with -t(perpetual ping) and ping was successful.
 </p>
 <br />
