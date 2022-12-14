@@ -37,7 +37,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 In this tutorial, I will create Virtual Machines in Microsoft Azure and install on-premises version of Active Directory on the Azure Virtual Machine. Both Virtial Machines will be created in the same VNET DNS Server. First Virtual Machine will be Domain Controller - DC-1 (server that has Active Directory installed on it and running on Windows Server 2022) and second Virtual Machine is Client Machine - Client-1 (running on Windows 10 (21H2).
 </p>
 <br />
-
 <p>
 <img src="https://imgur.com/eWWIfmv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -48,7 +47,6 @@ In this tutorial, I will create Virtual Machines in Microsoft Azure and install 
 Created two Virtual Machines - DC-1 and Client-1 in Azure. Changed the DC-1 to a static IP address because its offering Active Directory services to the client machine and Client machine will be joined to the domain. 
 </p>
 <br />
-
 <p>
 <img src="https://imgur.com/7qOCUtY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
