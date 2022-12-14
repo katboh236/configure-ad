@@ -70,3 +70,15 @@ To ensure connectivity between Client-1 and DC-1, I have enabled ICMPv4 on the M
 Logged in to DC-1 and installed Active Directory Domain Services, set up a new forest as mydomain.com, restarted and then logged in back to DC-1 as user: mydomain.com\kbuser.
 </p>
 <br />
+<p>
+<img src="https://imgur.com/ZXSB6OB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://imgur.com/X5URyRn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Active Directory Users and Computers (ADUC), created an Organizational Unit (OU) called “_EMPLOYEES”, created a new OU named “_ADMINS” and created a new employee named “Jane Doe” (same password) with the username of “jane_admin”. Added jane_admin to the “Domain Admins” Security Group, loged out/closed the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin” and I can use jane_admin as my admin account from now on.
+
+
+</p>
+<br />
